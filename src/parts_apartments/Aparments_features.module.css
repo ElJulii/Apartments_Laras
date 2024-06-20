@@ -1,0 +1,31 @@
+.features_containers {
+    display: grid;
+    margin: 10px 40px 10px 40px;
+    gap: 20px;
+}
+
+.general_information {
+    background-color: white;
+    border-radius: 10px;
+    border: solid black 3px;
+    padding: 10px 25px 10px 25px;
+}
+
+.first_apartment, .third_apartment, .second_apartment, .house {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    border: solid black 3px;
+    padding: 10px 25px 10px 25px;
+    position: relative;
+}
+
+.second_apartment, .house {
+    text-align: right;
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+

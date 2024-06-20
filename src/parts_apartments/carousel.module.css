@@ -1,0 +1,40 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.carouselImage {
+    width: 400px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.carouselButton {
+    background: none;
+    border: none;
+    font-size: 100px;
+    cursor: pointer;
+    color: #333;
+    z-index: 1;
+    margin: 20px;
+}
+
+.carouselButton:hover {
+    color: #000;
+}
+
+.carouselButton:focus {
+    outline: none;
+}
+
+.carouselButton:nth-child(1) {
+    left: 0;
+}
+
+.carouselButton:nth-child(3) {
+    right: 0;
+}
