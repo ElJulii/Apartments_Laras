@@ -16,7 +16,7 @@ function Album () {
                 <img className={style.imgs_set} src={image_four}/>
                 <img className={style.imgs_set} src={image_five}/>
                 <div className={style.overlay}>
-                    <div className={style.overlay_text}>OPORTUNIDAD - EN GUAPULO SECTOR RESIDENCIAL , VENDEMOS PROPIEDAD DE 4 - PISOS , CON ESCRITURAS EN DIVISION HORIZONTAL , EN LA PLANTA BAJA LOS PARQUEADEROS , BODEGA. EN LOS PISOS  1 - 2 - Y - 3 - CUENTA CON - 3 - DEPARTAMENTOS DE 3 - DORMITORIOS - C/ U</div>
+                    <div className={style.overlay_text}>EN GUAPULO SECTOR RESIDENCIAL , VENDEMOS PROPIEDAD DE 4  PISOS Y UNA VILLA CASA , CON ESCRITURAS EN DIVISION HORIZONTAL , EN LA PLANTA BAJA LOS PARQUEADEROS Y BODEGA.</div>
                 </div>
             </div>
         </div>

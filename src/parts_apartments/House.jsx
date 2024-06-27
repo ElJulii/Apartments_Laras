@@ -6,6 +6,7 @@ import living_house from "./house/living_house.jpg"
 import second_bathroom from "./house/second_bathroom_house.jpg"
 import second_floor_house from "./house/second_floor_house.jpg"
 import third_bedroom_house from "./house/third_bedroom_house.jpg"
+import first_bedroom_house from "./house/first_bedroom_house.jpg"
 
 function house_function() {
     return [
@@ -17,6 +18,7 @@ function house_function() {
         {id: 6, url: second_bathroom, part: "bathroom"},
         {id: 7, url: second_floor_house, part: "bedroom"},
         {id: 8, url: third_bedroom_house, part: "bedroom"},
+        {id: 9, url: first_bedroom_house, part: "bedroom"}
     ]
 }
 

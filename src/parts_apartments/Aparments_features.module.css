@@ -1,6 +1,6 @@
 .features_containers {
     display: grid;
-    margin: 10px 40px 10px 40px;
+    margin: 10px 100px 10px 100px;
     gap: 20px;
 }
 
@@ -11,7 +11,7 @@
     padding: 10px 25px 10px 25px;
 }
 
-.first_apartment, .third_apartment, .second_apartment, .house {
+.first_apartment, .third_apartment, .second_apartment, .house, .nearby_places {
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -19,6 +19,7 @@
     border: solid black 3px;
     padding: 10px 25px 10px 25px;
     position: relative;
+    font-size: 30px;
 }
 
 .second_apartment, .house {
@@ -26,6 +27,23 @@
     padding: 10px 20px 10px 20px;
 }
 
+.info_parts {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
 
+.places {
+    padding: 5% 7%;
+    line-height: 60px;
+}
 
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.map {
+    width: 500px;
+}
 

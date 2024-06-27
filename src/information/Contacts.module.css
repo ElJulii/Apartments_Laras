@@ -1,0 +1,16 @@
+.contacts_container {
+    background-color: mediumpurple;
+    padding: 40px;
+    border: solid black 2px;
+}
+
+.contacts {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_text {
+    text-align: center;
+    font-size: 40px;
+}
