@@ -3,8 +3,12 @@ function Footer() {
     return (
         <footer>
             <div className={style.footer_links}>
-                <a href="/privacy-policy" className={style.footer_link}>Política de Privacidad</a>
-                <a href="/terms-and-conditions" className={style.footer_link}>Términos y Condiciones</a>
+                <a href="https://docs.google.com/document/d/1lp4TbWWZcHFVzUPvao_KcizaeLj0SEFAGFusNlEYHeU/edit?usp=sharing" target="_blank" className={style.footer_link}>
+                    Política de Privacidad
+                </a>
+                <a href="https://docs.google.com/document/d/11We1rGDydsttOzGBYT4kD9zpvvs5BkUlkoUa_LWC70o/edit?usp=sharing" target="_blank" className={style.footer_link}>
+                    Términos y Condiciones
+                </a>
             </div>
             <div className={style.social_media}>
                 <a href="https://www.instagram.com/el_julii28/" target="_blank" className={style.social_icon}>
