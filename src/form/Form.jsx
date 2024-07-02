@@ -23,8 +23,7 @@ function FormData() {
        <div id="form-section" className={style.form_container}>
 
            <h2 className={style.form_description}>
-               Por favor, ingrese sus datos y nos comunicaremos
-               con usted lo mas antes posible.
+               Por favor, ingrese sus datos y nos comunicaremos con usted lo más pronto posible.
            </h2>
 
            <form autoComplete="off" className={style.formClient} onSubmit={handleSubmit}>

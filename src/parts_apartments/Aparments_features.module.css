@@ -1,6 +1,6 @@
 .features_containers {
     display: grid;
-    margin: 10px 100px 10px 100px;
+    margin: 10px 100px 80px 100px;
     gap: 20px;
 }
 
@@ -13,18 +13,14 @@
 
 .first_apartment, .third_apartment, .second_apartment, .house, .nearby_places {
     display: flex;
+    text-align: center;
     justify-content: space-between;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 150px;
     border: solid black 3px;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 80px 10px 80px;
     position: relative;
     font-size: 30px;
-}
-
-.second_apartment, .house {
-    text-align: right;
-    padding: 10px 20px 10px 20px;
 }
 
 .info_parts {

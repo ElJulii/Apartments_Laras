@@ -16,7 +16,7 @@ function Album () {
                 <img className={style.imgs_set} src={image_four}/>
                 <img className={style.imgs_set} src={image_five}/>
                 <div className={style.overlay}>
-                    <div className={style.overlay_text}>EN GUAPULO SECTOR RESIDENCIAL , VENDEMOS PROPIEDAD DE 4  PISOS Y UNA VILLA CASA , CON ESCRITURAS EN DIVISION HORIZONTAL , EN LA PLANTA BAJA LOS PARQUEADEROS Y BODEGA.</div>
+                    <div className={style.overlay_text}>En Guápulo, sector residencial, vendemos propiedad de 4 pisos y una villa/casa, con escrituras en división horizontal. En la planta baja se encuentran los parqueaderos y bodega.</div>
                 </div>
             </div>
         </div>

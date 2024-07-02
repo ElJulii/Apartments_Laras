@@ -14,42 +14,42 @@ function Apartments_features () {
                 <h2>INFORMACIÓN GENERAL</h2>
 
                 <div className={style.info_parts}>
-                    <div className={style.info_data}>
+                    <div className="info_data">
                         <p>
-                            <b>Áreas cubiertas:</b> 428.51 métros cuadrados
+                            <strong>Áreas cubiertas:</strong> 428.51 metros cuadrados
                         </p>
                         <p>
-                            <b>Áreas abiertas:</b> 93.37 métros cuadrados
+                            <strong>Áreas abiertas:</strong> 93.37 metros cuadrados
                         </p>
                         <p>
-                            <b>Total:</b> 521.88 métros cuadrados
+                            <strong>Total:</strong> 521.88 métros cuadrados
                         </p>
 
                         <p>
                             <b>Direccion: </b>
                             <a href="https://www.google.com/maps/place//@-0.2043373,-78.4763968,19.79z?entry=ttu"
                                           target="_blank">
-                            Quito, Guapulo, AV. Ana de ayala n27-65 y la tolita
+                                Quito, Guápulo, Av. Ana de Ayala N27-65 y La Tolita
                         </a>
                         </p>
                         <p>
                             <b>Precios: </b>
-                            $ 78.000 POR DEPARTAMENTO y CASA VALOR $ 85.000 NEGOCIABLES
+                            $ 78.000 POR APARTAMENTO y CASA VALOR $ 85.000 NEGOCIABLES
                         </p>
                         <p>
                             <b>Tiene garage: </b>
-                            Si
+                            Sí
                         </p>
                         <p>
                             <b>Tiene terraza: </b>
-                            Si
+                            Sí
                         </p>
                         <p>
                             ¡BARRIO SEGURO!
                         </p>
                     </div>
-                    <div className={style.info_map}>
-                        <img className={style.map} src={mapa_img}/>
+                    <div className="info_map">
+                        <img className={style.map} src={mapa_img} alt="mapa"/>
                     </div>
                 </div>
 
@@ -58,13 +58,13 @@ function Apartments_features () {
             <div className={style.first_apartment}>
 
                 <div>
-                    <h3>Apartemento del primer piso</h3>
+                    <h3>Apartamento del primer piso</h3>
                     <p>Dormitorios: 3</p>
                     <p>Baños: 2 completos y 1 social</p>
-                    <p>Sala, comedor, cocina y balcon</p>
-                    <p>Cubierta 100.68 m2</p>
-                    <p>Bodega 1, 12.88 m2</p>
-                    <p>Área abierta 9.14 m2</p>
+                    <p>Sala, comedor, cocina y balcón</p>
+                    <p>Cubierta: 100.68 m²</p>
+                    <p>Bodega 1: 12.88 m²</p>
+                    <p>Área abierta: 9.14 m²</p>
                 </div>
                 <div>
                     <Carousel images={first_floor} />
@@ -76,24 +76,24 @@ function Apartments_features () {
                     <Carousel images={second_floor} />
                 </div>
                 <div>
-                    <h3>Apartemento del segundo piso</h3>
+                    <h3>Apartamento del segundo piso</h3>
                     <p>Dormitorios: 3</p>
                     <p>Baños: 2 completos y 1 social</p>
                     <p>Sala, comedor y cocina</p>
-                    <p>Cubierta 99.57 m2</p>
-                    <p>Estacionamiento 1, 16.73 m2 </p>
-                    <p>Área abierta 9 m2</p>
+                    <p>Cubierta: 99.57 m²</p>
+                    <p>Estacionamiento 1: 16.73 m²</p>
+                    <p>Área abierta: 9 m²</p>
                 </div>
             </div>
             <div className={style.third_apartment}>
                 <div>
-                    <h3>Apartemento del tercer piso</h3>
+                    <h3>Apartamento del tercer piso</h3>
                     <p>Dormitorios: 3</p>
                     <p>Baños: 2 completos</p>
                     <p>Sala, comedor y cocina</p>
-                    <p>Cubierta 85,45 m2 </p>
-                    <p>Área abierta Terraza accesible 14,56 m2</p>
-                    <p>Estacionamiento 2, 12.89 m2 </p>
+                    <p>Cubierta: 85.45 m²</p>
+                    <p>Área abierta (Terraza accesible): 14.56 m²</p>
+                    <p>Estacionamiento 2: 12.89 m²</p>
                 </div>
                 <div>
                     <Carousel images={third_floor} />
@@ -109,16 +109,16 @@ function Apartments_features () {
                     <p>Dormitorios: 3</p>
                     <p>Baños: 2 completos</p>
                     <p>Sala, comedor y cocina </p>
-                    <p>Cubierta 70.93 m2</p>
-                    <p>Bodega 2, 14.39 m2</p>
-                    <p>Estacionamiento 14,99 m2</p>
-                    <p>Jardín y espacio verde 51.19 m2</p>
+                    <p>Cubierta: 70.93 m²</p>
+                    <p>Bodega 2: 14.39 m²</p>
+                    <p>Estacionamiento 14,99 m²</p>
+                    <p>Jardín y espacio verde 51.19 m²</p>
                 </div>
             </div>
 
             <div className={style.nearby_places}>
                 <div className={style.places}>
-                    <lo>Lugares cercanos: </lo>
+                    <lo><strong>Lugares cercanos</strong></lo>
                     <li>La Floresta</li>
                     <li>AV. Simón Bolivar</li>
                     <li>Universidad internacional SEK</li>
