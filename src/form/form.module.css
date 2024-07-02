@@ -38,3 +38,31 @@
     margin: 0 auto;
     display: block;
 }
+
+@media (max-width: 768px) {
+    .form_container {
+        padding: 20px;
+    }
+
+    .input_client, .input_phone {
+        padding: 8px;
+    }
+
+    .button_form {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form_container {
+        padding: 15px;
+    }
+
+    .input_client, .input_phone {
+        padding: 6px;
+    }
+
+    .button_form {
+        padding: 6px 12px;
+    }
+}

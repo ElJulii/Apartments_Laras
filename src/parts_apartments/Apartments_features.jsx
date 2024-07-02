@@ -5,55 +5,27 @@ import third_floor from "./Third_floor";
 import house from "./House"
 import nearby_places from "./Nearby_places"
 import Carousel from "./Carousel";
-import mapa_img from "../mapa.png"
-function Apartments_features () {
-
+import map_img from "../map.png"
+function Apartments_features() {
     return (
-        <div className={style.features_containers}>
-            <div className={style.general_information}>
-                <h2>INFORMACIÓN GENERAL</h2>
+        <div className={style.features_container}>
+            <section className={style.section}>
 
-                <div className={style.info_parts}>
-                    <div className="info_data">
-                        <p>
-                            <strong>Áreas cubiertas:</strong> 428.51 metros cuadrados
-                        </p>
-                        <p>
-                            <strong>Áreas abiertas:</strong> 93.37 metros cuadrados
-                        </p>
-                        <p>
-                            <strong>Total:</strong> 521.88 métros cuadrados
-                        </p>
-
-                        <p>
-                            <b>Direccion: </b>
-                            <a href="https://www.google.com/maps/place//@-0.2043373,-78.4763968,19.79z?entry=ttu"
-                                          target="_blank">
-                                Quito, Guápulo, Av. Ana de Ayala N27-65 y La Tolita
-                        </a>
-                        </p>
-                        <p>
-                            <b>Precios: </b>
-                            $ 78.000 POR APARTAMENTO y CASA VALOR $ 85.000 NEGOCIABLES
-                        </p>
-                        <p>
-                            <b>Tiene garage: </b>
-                            Sí
-                        </p>
-                        <p>
-                            <b>Tiene terraza: </b>
-                            Sí
-                        </p>
-                        <p>
-                            ¡BARRIO SEGURO!
-                        </p>
+                <div className={style.grid_container}>
+                    <div className={style.info}>
+                        <h2 className={style.section_title}>INFORMACIÓN GENERAL</h2>
+                        <p><strong>Áreas cubiertas:</strong> 428.51 metros cuadrados</p>
+                        <p><strong>Áreas abiertas:</strong> 93.37 metros cuadrados</p>
+                        <p><strong>Total:</strong> 521.88 metros cuadrados</p>
+                        <p><b>Dirección:</b> <a href="https://www.google.com/maps/place//@-0.2043373,-78.4763968,19.79z?entry=ttu" target="_blank" rel="noopener noreferrer">Quito, Guápulo, Av. Ana de Ayala N27-65 y La Tolita</a></p>
+                        <p><b>Precios:</b> $ 78.000 POR APARTAMENTO y CASA VALOR $ 85.000 NEGOCIABLES</p>
+                        <p><b>Tiene garage:</b> Sí</p>
+                        <p><b>Tiene terraza:</b> Sí</p>
+                        <p>¡BARRIO SEGURO!</p>
                     </div>
-                    <div className="info_map">
-                        <img className={style.map} src={mapa_img} alt="mapa"/>
-                    </div>
+                    <img className={style.map} src={map_img} alt="mapa" />
                 </div>
-
-            </div>
+            </section>
 
             <div className={style.first_apartment}>
 
@@ -131,7 +103,8 @@ function Apartments_features () {
                 </div>
             </div>
         </div>
-    )
+    );
 }
+
 
 export default Apartments_features;

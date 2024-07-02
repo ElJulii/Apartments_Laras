@@ -1,32 +1,46 @@
-.features_containers {
-    display: grid;
-    margin: 10px 100px 80px 100px;
-    gap: 20px;
+.features_container {
+    margin: 20px;
 }
 
-.general_information {
+.section {
+    margin-bottom: 40px;
+}
+
+.section_title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
     background-color: white;
     border-radius: 10px;
-    border: solid black 3px;
-    padding: 10px 25px 10px 25px;
+    border: 2px solid black;
+    padding: 20px;
+}
+.info {
+    font-size: 25px;
+}
+.map {
+    max-width: 600px;
+    height: auto;
 }
 
 .first_apartment, .third_apartment, .second_apartment, .house, .nearby_places {
     display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
     text-align: center;
     justify-content: space-between;
     background-color: white;
-    border-radius: 150px;
+    border-radius: 10px;
     border: solid black 3px;
     padding: 10px 80px 10px 80px;
     position: relative;
     font-size: 30px;
-}
-
-.info_parts {
-    display: flex;
-    justify-content: space-between;
-    font-size: 25px;
 }
 
 .places {
@@ -39,7 +53,31 @@ h2 {
     font-size: 28px;
 }
 
-.map {
-    width: 500px;
+@media (max-width: 768px) {
+    .first_apartment, .third_apartment, .second_apartment, .house, .nearby_places {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
 }
 
+@media (min-width: 768px) {
+    .grid_container {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid_container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .map {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}

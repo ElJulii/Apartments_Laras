@@ -18,13 +18,13 @@
     border: none;
     font-size: 100px;
     cursor: pointer;
-    color: #333;
+    color: black;
     z-index: 1;
     margin: 20px;
 }
 
 .carouselButton:hover {
-    color: #000;
+    color: rebeccapurple;
 }
 
 .carouselButton:focus {
@@ -37,4 +37,15 @@
 
 .carouselButton:nth-child(3) {
     right: 0;
+}
+
+@media (max-width: 768px) {
+    .carouselImage {
+        width: 100%;
+        height: auto;
+    }
+    .carouselButton {
+        margin: auto -60px;
+        color: wheat;
+    }
 }

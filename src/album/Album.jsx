@@ -10,11 +10,11 @@ function Album () {
             <div className={style.one_img}>
                 <img className={style.home_img} src={image_uno} alt="home"/>
             </div>
-            <div className={style.four_imgs}>
-                <img className={style.imgs_set} src={image_dos}/>
-                <img className={style.imgs_set} src={image_three}/>
-                <img className={style.imgs_set} src={image_four}/>
-                <img className={style.imgs_set} src={image_five}/>
+            <div className={style.four_img}>
+                <img className={style.img_set} src={image_dos} alt="kitchen"/>
+                <img className={style.img_set} src={image_three} alt="third floor balcon"/>
+                <img className={style.img_set} src={image_four} alt="third floor"/>
+                <img className={style.img_set} src={image_five} alt="dinner room fist floor"/>
                 <div className={style.overlay}>
                     <div className={style.overlay_text}>En Guápulo, sector residencial, vendemos propiedad de 4 pisos y una villa/casa, con escrituras en división horizontal. En la planta baja se encuentran los parqueaderos y bodega.</div>
                 </div>
