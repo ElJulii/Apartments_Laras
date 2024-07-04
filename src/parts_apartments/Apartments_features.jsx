@@ -23,7 +23,7 @@ function Apartments_features() {
                         <p><b>Tiene terraza:</b> Sí</p>
                         <p>¡BARRIO SEGURO!</p>
                     </div>
-                    <img className={style.map} src={map_img} alt="mapa" />
+                    <iframe className={style.map} src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d249.3620574999292!2d-78.476407771747!3d-0.20444716944041372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses!2sru!4v1720078716436!5m2!1ses!2sru"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
 

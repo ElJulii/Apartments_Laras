@@ -39,6 +39,10 @@
     display: block;
 }
 
+.error_message {
+    color: red;
+}
+
 @media (max-width: 768px) {
     .form_container {
         padding: 20px;
