@@ -5,7 +5,6 @@ import third_floor from "./Third_floor";
 import house from "./House"
 import nearby_places from "./Nearby_places"
 import Carousel from "./Carousel";
-import map_img from "../map.png"
 function Apartments_features() {
     return (
         <div className={style.features_container}>
