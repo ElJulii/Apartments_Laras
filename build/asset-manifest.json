@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Apartments_Laras/build/static/css/main.4b84b045.css",
-    "main.js": "/Apartments_Laras/build/static/js/main.ed104cd7.js",
+    "main.css": "/Apartments_Laras/build/static/css/main.710445e1.css",
+    "main.js": "/Apartments_Laras/build/static/js/main.0c51a6bb.js",
     "static/js/453.e469df8c.chunk.js": "/Apartments_Laras/build/static/js/453.e469df8c.chunk.js",
     "static/media/AV_simon_bolivar.png": "/Apartments_Laras/build/static/media/AV_simon_bolivar.5653ef4dbf0d24e509d3.png",
     "static/media/uni.jpg": "/Apartments_Laras/build/static/media/uni.ac2ab7e683a240d58af8.jpg",
@@ -48,12 +48,12 @@
     "static/media/living_3.jpg": "/Apartments_Laras/build/static/media/living_3.d579b532f9f6e8cd6bb6.jpg",
     "static/media/balcon_3.jpg": "/Apartments_Laras/build/static/media/balcon_3.ca7d44fa14d95d234ff5.jpg",
     "index.html": "/Apartments_Laras/build/index.html",
-    "main.4b84b045.css.map": "/Apartments_Laras/build/static/css/main.4b84b045.css.map",
-    "main.ed104cd7.js.map": "/Apartments_Laras/build/static/js/main.ed104cd7.js.map",
+    "main.710445e1.css.map": "/Apartments_Laras/build/static/css/main.710445e1.css.map",
+    "main.0c51a6bb.js.map": "/Apartments_Laras/build/static/js/main.0c51a6bb.js.map",
     "453.e469df8c.chunk.js.map": "/Apartments_Laras/build/static/js/453.e469df8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b84b045.css",
-    "static/js/main.ed104cd7.js"
+    "static/css/main.710445e1.css",
+    "static/js/main.0c51a6bb.js"
   ]
 }
