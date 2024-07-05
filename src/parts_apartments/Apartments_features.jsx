@@ -89,7 +89,7 @@ function Apartments_features() {
 
             <div className={style.nearby_places}>
                 <div className={style.places}>
-                    <lo><strong>Lugares cercanos</strong></lo>
+                    <ol><strong>Lugares cercanos</strong></ol>
                     <li>La Floresta</li>
                     <li>AV. Simón Bolivar</li>
                     <li>Universidad internacional SEK</li>

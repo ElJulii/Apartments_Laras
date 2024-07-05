@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Apartments_Laras/build/static/css/main.710445e1.css",
-    "main.js": "/Apartments_Laras/build/static/js/main.0c51a6bb.js",
+    "main.css": "/Apartments_Laras/build/static/css/main.b0ab878c.css",
+    "main.js": "/Apartments_Laras/build/static/js/main.ef3b4a69.js",
     "static/js/453.e469df8c.chunk.js": "/Apartments_Laras/build/static/js/453.e469df8c.chunk.js",
     "static/media/AV_simon_bolivar.png": "/Apartments_Laras/build/static/media/AV_simon_bolivar.5653ef4dbf0d24e509d3.png",
     "static/media/uni.jpg": "/Apartments_Laras/build/static/media/uni.ac2ab7e683a240d58af8.jpg",
@@ -10,7 +10,6 @@
     "static/media/living_house.jpg": "/Apartments_Laras/build/static/media/living_house.389d7b3ef96d7f3bc257.jpg",
     "static/media/comedor_1.jpg": "/Apartments_Laras/build/static/media/comedor_1.a4fa190c1cf6bbc100db.jpg",
     "static/media/iglesia_guapulo.jpg": "/Apartments_Laras/build/static/media/iglesia_guapulo.1e774198d54072764d45.jpg",
-    "static/media/map.png": "/Apartments_Laras/build/static/media/map.8358db24cd5e4c9efe6e.png",
     "static/media/foto_dos.jpg": "/Apartments_Laras/build/static/media/foto_dos.53ab853ae863d12e48e2.jpg",
     "static/media/muebles_cocina_1.jpg": "/Apartments_Laras/build/static/media/muebles_cocina_1.e0df7ae4730bc65a9a76.jpg",
     "static/media/kitchen_house.jpg": "/Apartments_Laras/build/static/media/kitchen_house.2a9e6ea3b2e25878844b.jpg",
@@ -48,12 +47,12 @@
     "static/media/living_3.jpg": "/Apartments_Laras/build/static/media/living_3.d579b532f9f6e8cd6bb6.jpg",
     "static/media/balcon_3.jpg": "/Apartments_Laras/build/static/media/balcon_3.ca7d44fa14d95d234ff5.jpg",
     "index.html": "/Apartments_Laras/build/index.html",
-    "main.710445e1.css.map": "/Apartments_Laras/build/static/css/main.710445e1.css.map",
-    "main.0c51a6bb.js.map": "/Apartments_Laras/build/static/js/main.0c51a6bb.js.map",
+    "main.b0ab878c.css.map": "/Apartments_Laras/build/static/css/main.b0ab878c.css.map",
+    "main.ef3b4a69.js.map": "/Apartments_Laras/build/static/js/main.ef3b4a69.js.map",
     "453.e469df8c.chunk.js.map": "/Apartments_Laras/build/static/js/453.e469df8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.710445e1.css",
-    "static/js/main.0c51a6bb.js"
+    "static/css/main.b0ab878c.css",
+    "static/js/main.ef3b4a69.js"
   ]
 }
